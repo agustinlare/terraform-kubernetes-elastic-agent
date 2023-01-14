@@ -1,6 +1,9 @@
 # terraform-kubernetes-module-es-agent
 
-# Example
+Heartbeat config file is in manifests directory.
+
+## Example
+```
 module "module_es_agent" {
   source  = "app.terraform.io/clave/module-es-agent/kubernetes"
   version = "0.2.0"
@@ -26,9 +29,9 @@ module "module_es_agent" {
     module.eks
   ]
 }
-
+```
 ## Provider
-
+```
 terraform {
   required_providers {
     local = {
@@ -52,7 +55,7 @@ provider "kubernetes" {
   }
   load_config_file = false
 }
-
+```
 ## Inputs
 
 | Name | Description | Type | Default | Required |
