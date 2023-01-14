@@ -1,5 +1,6 @@
-# terraform-kubernetes-module-es-agent
+# Terraform Module to install Elastic Agent in Kubernetes 1.21+
 
+This is base on the requirements for a Elastic Cloud Stack deployment
 Heartbeat config file is in manifests directory.
 
 ## Example
