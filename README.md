@@ -5,7 +5,7 @@ Heartbeat config file is in manifests directory.
 ## Example
 ```
 module "module_es_agent" {
-  source  = "app.terraform.io/clave/module-es-agent/kubernetes"
+  source  = "./"
   version = "0.2.0"
 
   enabled = true
